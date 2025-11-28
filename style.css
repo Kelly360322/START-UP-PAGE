@@ -4,3 +4,56 @@
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
 }
+
+body {
+    background: url('BG.jpg');
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(20px);
+    min-height: 100vh;
+    background: transparent (20px);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+    padding: 12px 30px;
+    width: 90%;
+    margin: auto;
+    background: none;
+    margin-top: 40px;
+    border-radius: 50px;
+    border: 2px solid rgba(250, 250, 250, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav h1 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+
+}
+
+nav li a {
+    text-decoration: none;
+    border-left: 1px solid;
+    padding: 8px 20px;
+    color: black;
+}
+
+nav li .special {
+    border: none;
+}
+
+nav li a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
